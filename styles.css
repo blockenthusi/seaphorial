@@ -1,21 +1,9 @@
+body {
+   font: san-serif ;
+}
 
 
-/*.container {
-   border: 10px #7393B3;
-   max-width: 700px;
-   height: 50vh;
-   display: flex;
-   justify-content: center;
-   width: 100;
-   position:absolute;
-   right: 0;
-   left: 0;
-   top: 0;
-   bottom: 0;
-   margin: auto;
-} */
-
-.div-1 {
+/*.div-1 {
    background: #7393B3;
    height: 100vh;
    width: 70%;
@@ -24,14 +12,14 @@
    left: 50%;
    transform: translate(-50%, -50%);
 
-}
+}*/
 
 .div-2 {
    background: #ffff;
    display: flex;
-   height: 90vh;
-   width: 90%;
-   position: relative;
+   height: 100vh;
+   width: 100%;
+   position: absolute;
    top: 50%;
    left: 50%;
    transform: translate(-50%, -50%);
@@ -74,11 +62,11 @@
 .div-button2 {
    background:#0000ff;
    height: 35%;
-   width: 90%;
+   width: 80%;
    position: absolute;
    border-radius: 10%;
-   bottom: 40px;
-   left: 5%;   
+   bottom: 30px;
+   left: 8%;   
 }
   .divBx .div-button2 p {
    color: #fff;
@@ -86,7 +74,7 @@
    text-align: left;
    letter-spacing: 1.5px;
    justify-content: left;
-   line-height: 1;
+   line-height: 1.8;
    position: absolute;
    top: 1%;
    left: 5%;
@@ -100,9 +88,9 @@
    background-clip: content-box;
    border: 0.3rem dotted #a14b1a;
    border-radius: 50%;
-   width: 25%;
+   width: 5rem;
    position: absolute;
-   height:40%;
+   height: 5rem;
    bottom: 3%;
    left: 5%;
   } 
@@ -112,7 +100,7 @@ h3 {
    text-align: left;
    font-weight: 600;
    letter-spacing: 1.5px;
-   line-height: 1.8;
+   line-height: 2;
    text-transform: capitalize;
    position: absolute;
    top: 30%;
@@ -125,8 +113,8 @@ h6 {
    max-width: 500px;
    line-height: 2;
    position: absolute;
-   bottom: 4%;
-   left: 33%;
+   bottom: 3%;
+   left: 28%;
    word-break: break-all;
 }
 
@@ -161,7 +149,7 @@ h6 {
 }
 
 .formBx p {
-   color: #607db8;
+   color: #000000;
    font-weight: 300;
    font-size: 1rem;
    letter-spacing: 1px;
@@ -172,12 +160,12 @@ h6 {
 }
 
 .formBx .inputBx {
-   margin-bottom:  7px;
+   margin-bottom:  10px;
 }
 
 .formBx .inputBx span{
    font-size: 16px;
-   margin-bottom: 5px;
+   margin-bottom: 8px;
    display: inline-block;
    color: #000000;
    font-weight: 300;
@@ -191,10 +179,10 @@ h6 {
    padding: 10px 10px;
    outline: none;
    font-weight: 400;
-   border: 1px solid #607d8b;
+   border: 1px solid #000000;
    font-size: 16px;
    letter-spacing: 1px;
-   color: #607d8b;
+   color: #000000;
    background: transparent;
    border-radius: 10px;
 }
@@ -205,8 +193,7 @@ h6 {
    outline: none;
    border: none;
    font-weight: 500;
-   cursor: pointer;
-}
+   cursor: pointer;}
 
 .formBx .inputBx input[type="submit"]:hover {
    background: #607db8;
@@ -219,7 +206,7 @@ h6 {
    border-radius: 50%;
    cursor: pointer;
    position: absolute;
-   top: 57%;
+   top: 60%;
    transform: translateY(-0%);
    left: 98%;
 }
@@ -239,49 +226,46 @@ width: 20px;
 }
 .formBx .remember {
    margin-bottom: 10px;
-   color: #607db8;
+   color: #000000;
    font-weight: 400;
    font-size: 14px;
 }
 
-/*.h3 {
-   color: #607d8b;
-   text-align: center;
-    font-weight: 300;
-    margin: 30px 0 10px;
+
+
+
+@media screen and  (max-width: 600px) {
+   body {
+      width: 100%;
+      background-color: #fff;
+   }
 }
 
-.sci {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-
+@media screen and (min-width: 601px) {
+   body {
+      width: 100%;
+      background-color: gold;
+   }
 }
 
-.sci li {
-   list-style: none;
-   width: 30%;
-   height: 30%;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   background: #607d8b;
-   border-radius: 50%;
-   margin: 0 7px;
-   cursor: pointer;
+@media screen and (min-width: 768px) {
+   body {
+      width: 100%;
+      background-color: firebrick;
+   }
 }
 
-.sci li:hover {
-   background: #607db8;
+@media screen and (min-width: 992px) {
+   body {
+      width: 100%;
+      background-color:  purple;
+   }
 }
 
-.sci li img {
-   transform: scale(0.5);
-   filter: invert(1);
-
+/* For mobile device landscape*/
+@media screen and (max-width: 600px) and (orientation: landscape) {
+   body { 
+      width: 100%;
+      background-color: #fff;
+   }
 }
-
-@media (max-width: 768px) {
-
-}*/
-
